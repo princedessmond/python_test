@@ -1,7 +1,7 @@
 import json
 
 
-with open('source_file_2.json', 'r') as f:
+with open('/home/cyberguy/Documents/AI_ML_DL/deeper_test/source_file_2.json', 'r') as f:
     data = json.load(f)
     sorted_data = sorted(data, key=lambda project: project.get('priority'))
 
